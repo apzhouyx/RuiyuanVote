@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 # 小区投票统计系统
 
 基于 FastAPI 和 Vue.js 的小区投票统计系统，支持实时数据同步和可视化展示。
-
+<img src="images/interface.png" width="470px">
 ## 功能特点
 
 - 17栋楼动态投票进度展示
@@ -73,7 +73,3 @@ vote/
 │   └── package.json
 └── README.md
 ``` 
-=======
-# RuiyuanVote
-瑞园业主投票统计系统
->>>>>>> 76f58862c372975eebea7532b40548bb27063683
