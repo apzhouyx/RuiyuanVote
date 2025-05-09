@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 小区投票统计系统
 
 基于 FastAPI 和 Vue.js 的小区投票统计系统，支持实时数据同步和可视化展示。
@@ -52,7 +53,7 @@ npm install
 ```bash
 # 后端
 cd backend
-uvicorn main:app --reload
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 # 前端
 cd frontend
@@ -72,3 +73,7 @@ vote/
 │   └── package.json
 └── README.md
 ``` 
+=======
+# RuiyuanVote
+瑞园业主投票统计系统
+>>>>>>> 76f58862c372975eebea7532b40548bb27063683

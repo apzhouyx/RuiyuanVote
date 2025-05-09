@@ -8,7 +8,8 @@ app = FastAPI(title="小区投票统计系统")
 # CORS设置
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # 在生产环境中应该设置具体的源
+    # allow_origins=["*"],  # 在生产环境中应该设置具体的源
+    allow_origins=["http://localhost:3002",'https://ruiyuan.reluma.fun'],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
